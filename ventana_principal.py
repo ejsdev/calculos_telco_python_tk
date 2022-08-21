@@ -53,9 +53,9 @@ Sistemas de Telecomunicaciones e Informáticos''', title="Info")
         #separator = ttk.Separator(self.raiz, orient='horizontal')
         #separator.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.01) #Barra separadora.
         
-        boton = Button(framePrincipal, text='Cálculos eléctricos',font=("Arial",12),background="gray85",
-                       foreground="gray15",borderwidth=2,relief=RAISED,activeforeground="white",activebackground="green",anchor="center",
-                       overrelief="raised",cursor="hand2",command=lambda:abrir_electricidad())    
+        boton = Button(framePrincipal, text='Cálculos eléctricos',font=("Arial",16),background="#ECF3F4",
+                       foreground="#465461",borderwidth=2,relief=RAISED,activeforeground="white",activebackground="#465461",anchor="center",
+                       overrelief="flat",cursor="hand2",command=lambda:abrir_electricidad())    
         boton.pack(fill='x')
         boton = Button(framePrincipal, text='Conversor decimal/binario',font=("Arial",12),background="gray85",
                        foreground="gray15",borderwidth=2,relief=RAISED,activeforeground="white",activebackground="green",anchor="center",
