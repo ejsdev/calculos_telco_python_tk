@@ -12,7 +12,7 @@ class Aplicacion():
         self.raiz.geometry('800x600')
         self.raiz.resizable(0,0)
         self.raiz.title("Aplicación") 
-        self.raiz.config(bg="black")  
+        self.raiz.config(bg="#465461")  
         menubar = Menu(self.raiz)
         self.raiz.config(menu=menubar)
         filemenu = Menu(menubar, tearoff=0)
@@ -48,7 +48,7 @@ Sistemas de Telecomunicaciones e Informáticos''', title="Info")
             
         
         Label(self.raiz, text="Cálculos para Electricidad, Electrónica y Telecomunicaciones",
-              foreground="blue",bg="black",font=("Consolas",14)).pack()
+              foreground="#ECF3F4",bg="#465461",font=("Arial",18)).pack()
         
         #separator = ttk.Separator(self.raiz, orient='horizontal')
         #separator.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.01) #Barra separadora.
